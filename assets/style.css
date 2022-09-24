@@ -1,0 +1,238 @@
+*{font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.topnav{
+    background-color: #4d9aad;
+    /* overflow: hidden; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0% 5%;
+    }
+.topnav a{
+   color: white;
+   text-decoration: none;
+
+}
+.topnav-right{
+   width: 40%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+padding-top: 3%;
+padding-right: 2%;
+}
+.nav{
+    display: none;
+}
+
+.pics{
+    display: flex;
+    padding: 5%;
+    margin: 3em 2em;
+    justify-content: space-around;
+}
+.pics h1{
+    color: #4d9aad;
+    font-size: large; 
+    font-family:Arial, Helvetica, sans-serif
+}
+.par{
+    font-size: 20px;
+    font-weight: bold;
+}
+#ID{
+    width: 50%;
+}
+.IG{
+    width: 40%;
+}
+
+
+.con{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(241, 239, 239);
+    justify-content: space-between;
+    padding: 3em 5em;
+}
+.top-con{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.con h1{
+    color: #4d9aad;
+    margin-top: 0%;
+}
+.con2{
+    background-color:#4D9AAD;
+    color: white;
+    border-radius: 10px ;
+    padding: 4px 8px;
+
+    
+}
+.contactme{
+    background-color:#4D9AAD;
+    color: white;
+    border-radius: 5px;
+    border: #4D9AAD;
+    margin: 10px;
+    width: 10%;
+}
+
+.ion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    }
+    .ion img{
+        margin-top: 2em;
+        border-radius: 1em;
+    }
+
+.ED{
+    background-color: rgb(12, 113, 146);
+}
+.ed1{
+    margin-left: 70%;
+}
+.gr4{
+    margin-left: 7%;
+}
+
+.call{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(12, 113, 146);
+    color: #ffffff;
+}
+.cont{
+    margin-top: 7%;
+}
+.cont a{
+    text-decoration: none;
+}
+.me1{
+    background-color: white;
+    color: #4D9AAD;
+     border-radius: 3em 3em ;
+     margin: 20px;
+     width: 50px;
+     height: 5800px;
+}
+.e2{
+    width: 20px;
+    border-radius: 8px;
+    
+}
+.footer{
+    background-color: #287486;
+    padding:3em 2em ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  
+  }
+  .social-icon{
+    display: flex;
+  }
+  .social-icon img{
+    width: 20px;
+  }
+  .social-icon a{
+    margin-right: 0.5em;
+  }
+  .link1{
+    background-color:rgb(41, 75, 245);
+    color: #ffffff;
+    
+  }
+
+
+
+
+  
+  @media screen and (max-width: 768px)
+{
+  
+  
+    .topnav-right{
+        width: 60%;
+        padding-top: 5%;
+    }
+  .IGI{
+    width: 300px;
+    height: 300px;
+  } 
+    .par{
+    margin-top: 30px;
+
+    }
+    .pics{
+        margin-top: 3em;
+    }
+
+    .con{
+   flex-direction: column;
+    background-color:rgb(241, 239, 239);
+    }
+
+    .ion img{
+        width: 40%;
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 414px){
+   .topnav-right{
+    display: none;
+   }
+   .nav{
+    display: block;
+    width: 80px;
+    height: 80px ;
+   }
+   .IG{
+    width: 100%;
+   }
+   #ID{
+    width: 100%;
+ padding-bottom: 60px;
+   }
+   .pics{
+    display: block;
+   }
+   .top-con{
+    display: block;
+   }
+   .contactme{
+    width: 55px;
+
+   }
+   .ion img{
+    width: 100%;
+}
+.gr4{
+    display: none;
+}
+.ed1{
+    display: none;
+}
+.call h2{
+    padding-left:25px;
+}
+}
